@@ -1,4 +1,4 @@
-# Auto Daily Claim $RWT Humanity Protocol Bot
+# Pipe Network Devnet Node
 
 Join tg, I will post bots there too.
 [Telegram](https://t.me/getcakedieyoungx)
