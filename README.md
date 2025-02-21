@@ -27,17 +27,8 @@ cd /root/pipe
 wget -O pop "https://dl.pipecdn.app/v0.2.8/pop"
 ```
 
-### 3. Create the private_keys.txt File
-Create a private_keys.txt file in the root directory of the project. This file should contain one private key per line, like so:
 
-```python
-private_key_1
-private_key_2
-private_key_3
-...
-```
-
-### Make pop executable
+### 3. Make pop executable
 ```bash
 chmod +x pop
 ```
