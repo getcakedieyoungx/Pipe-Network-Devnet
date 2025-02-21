@@ -85,6 +85,7 @@ sudo systemctl start pipe
 ```
 
 ### 6. Check healt and logs:
+There could be errors at start, just let the node work and wait some hours and check logs again.
 
 ```bash
 sudo systemctl status pipe
@@ -110,6 +111,11 @@ Recommened to backup node_info.json in /root/pipe. It is linked to the IP addres
 node_info.json: Node configuration
 download_cache: Cached content
 You will not be able to create a new node and new node_info.json with the same IP
+
+
+Check your node status on here:
+
+https://dashboard.pipenetwork.com/
 
 
 Ask me if you have questions.
