@@ -40,7 +40,9 @@ We create a systemd file to run the node by entering the following command.
 !! Please change your address etc.:
 
 --ram 4: Replace 4 with your favorite Ram you want to allocate. (e.g., 4 for 8GB).
+
 --max-disk 200: Replace 200 with the hard disk you want to allocate. (e.g., 200 for 200GB).
+
 --pubKey SOLADDRESS: Your Solana Address
 
 
