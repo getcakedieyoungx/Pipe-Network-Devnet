@@ -84,16 +84,28 @@ sudo systemctl enable pipe
 sudo systemctl start pipe
 ```
 
-### 6. Check healt and logs:
-There could be errors at start, just let the node work and wait some hours and check logs again.
+### 5. Stop and restart using screen
+After the node registered, if you keep running that systemd you'll get errors because that is a one time code for registering.
+
+####Stop the node
+```bash
+sudo systemctl stop pipe
+```
+Create screen
 
 ```bash
-sudo systemctl status pipe
+screen -S pipe
 ```
 
+Start pipe
+
 ```bash
-journalctl -u pipe -f
+sudo ./pop
 ```
+
+After that, CTRL A+D detach screen
+
+
 
 ### 6. Check score
 
